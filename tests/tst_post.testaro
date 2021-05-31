@@ -1,0 +1,29 @@
+! set output post
+
+< TOTO TUTU
+$ cat > fich
+
+$ cat fich
+> TOTO TUTU
+
+! set output pre
+$ rm fich
+
+
+< TOTO TUTU
+$ cat > fich
+
+> TOTO TUTU
+$ cat fich
+
+$ rm fich
+
+! set output post
+
+< Test2
+$ cat > fich2
+
+$ cat fich2
+> Test2
+
+$ rm fich2

@@ -1,0 +1,12 @@
+< TOTO \
+TUTU
+$ cat > fich
+
+> TOTO TUTU
+$ cat fich
+
+$ rm fich
+
+$ cd Noway
+
+$ echo Passe pas

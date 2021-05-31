@@ -1,0 +1,7 @@
+# Ceci est un exemple de suite
+< TOTO \
+TUTU
+$ cat > fich
+
+> TOTO TUTU
+$ cat fich

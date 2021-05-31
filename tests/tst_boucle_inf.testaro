@@ -1,0 +1,7 @@
+! set timout 0
+
+$ gcc -Wall -Wformat -o boucle_infinie tests/boucle_infinie.c
+
+! set timout 20
+
+$ ./boucle_infinie

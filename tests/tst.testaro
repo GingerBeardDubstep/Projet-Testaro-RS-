@@ -1,0 +1,43 @@
+# Ceci est un exemple de suite
+	< TOTO \
+TUTU \
+\
+TATA
+    	$ cat > fich
+
+> TOTO TUTU TATA
+$ cat fich
+
+#Test backslash sur iput et output et commande
+    < Test2 \
+\\Noway
+
+$ cat > \
+fich2
+
+! set timout 10
+! set output post
+! set output pre
+
+
+	  > Test2 \\Noway
+#Test2
+$ cat fich2
+
+#On teste le rm des fichiers construits
+$ rm fich
+$ rm fich2
+
+#On teste la commande cd
+< Test ..
+$ cat > test.test
+$ cd tests
+$ cd ..
+
+$ rm test.test
+  	
+#On teste les commande p
+p Affiche1
+    p Affiche2
+p Affiche3
+p

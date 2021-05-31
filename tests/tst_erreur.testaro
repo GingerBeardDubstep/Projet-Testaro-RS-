@@ -1,0 +1,11 @@
+< TOTO \
+TUTU
+$ cat > fich
+
+> TOTO TUTU
+$ cat fich
+
+commande non Reconnue
+
+< autre test
+$ cat test
